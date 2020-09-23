@@ -1,0 +1,96 @@
+body, html {
+    font-family: 'Raleway', sans-serif;
+    background: url(https://miro.medium.com/max/3840/1*V9GdNPhBPL0p-wgL3hMdwQ.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+  }
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+input#input_read {
+    width: 15px;
+    height: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+#header-text {
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+
+#input_form_container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.891);
+}
+
+#input_title, #input_author, #input_pages, #input_read {
+    margin-bottom: 10px;
+}
+
+#add_book_button {
+    width: 300px;
+}
+
+#card_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.891);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(115, 251, 185, 0.462);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 1px;
+    padding: 15px;
+    width: 200px;
+    height: 110px;
+}
+
+.card p {
+    font-size: .8rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.card button {
+    width: 100%;
+    font-size: .7rem;
+    margin-top: 2px;
+}

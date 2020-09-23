@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="bttn.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="input_form_container">
+        <form id="input_form" action="#" method="GET" onsubmit="return false">
+            <h1>Digital Library</h1>
+            <p id="header-text">Store your favorite books!</p>
+            <div class="formItem">
+                  <input type="text" name="input_name" id="input_title" placeholder="Title" autocomplete="off">
+             </div>
+             <div class="formItem">
+                  <input type="text" name="input_author" id="input_author" placeholder="Author" autocomplete="off">
+             </div>
+             <div class="formItem">
+              <input type="number" name="input_pages" id="input_pages" placeholder="Number of pages" autocomplete="off">
+            </div>
+            <div class="formItem">
+            <input type="checkbox" name="input_read" id="input_read" autocomplete="off"><label for="checkbox"> I've read this book</label>
+          </div>
+       
+          <div class="formItem">
+          <button type="button" name="add_book_button" id="add_book_button" class="bttn-slant bttn-lg bttn-success bttn-no-outline">Add a book!</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="card_container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
